@@ -1,0 +1,12 @@
+body {
+    background-color: lightcyan;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    color: lightslategrey;
+}
+
+a:hover {
+    color: maroon;
+}
