@@ -1,13 +1,44 @@
 body {
     background-color: lightcyan;
     font-family: 'Amatic SC', cursive;
+    
 }
 
 h1 {
     color: lightslategrey;
     font-family: 'Waterfall', cursive;
+    font-size: 100px;
+    margin: 20px 20px 50px 20px;
+    text-align: center;
+    text-decoration: underline dotted;
+
+}
+
+a {
+    font-size: 30px;
+    text-align: center;
 }
 
 a:hover {
     color: maroon;
+}
+
+.recipe-pic {
+    position: relative;
+    display: block;
+    margin: auto;
+}
+
+.lasagna {
+    width: 20%;
+    height: 20%;
+}
+
+.shrimp {
+    width: 15%;
+    height: 15%;
+}
+
+div {
+    text-align: center;
 }
