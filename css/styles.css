@@ -17,6 +17,7 @@ h1 {
 a {
     font-size: 30px;
     text-align: center;
+    margin-bottom: 20px;
 }
 
 a:hover {
@@ -24,7 +25,7 @@ a:hover {
 }
 
 .recipe-pic {
-    position: relative;
+    width: 100%;
     display: block;
     margin: auto;
 }
@@ -37,6 +38,11 @@ a:hover {
 .shrimp {
     width: 15%;
     height: 15%;
+}
+
+li {
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 div {
