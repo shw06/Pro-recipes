@@ -1,16 +1,17 @@
 body {
-    background-color: #FCDEC0;
+    background-color: #EEEBDD;
     font-family: 'Amatic SC', cursive;
     
 }
 
 h1 {
-    color: #7D5A50;
+    color: #630000;
     font-family: 'Waterfall', cursive;
     font-size: 100px;
     margin: 20px 20px 50px 20px;
     text-align: center;
     text-decoration: underline dotted;
+    font-weight: 600;
 
 }
 
@@ -21,7 +22,7 @@ a {
 }
 
 a:hover {
-    color: maroon;
+    color: magenta;
 }
 
 .recipe-pic {
@@ -35,9 +36,19 @@ a:hover {
     height: 20%;
 }
 
+.lasagna:hover {
+    transform: scale(1.5);
+    transition-duration 0.2s: ;
+}
+
 .shrimp {
     width: 15%;
     height: 15%;
+}
+
+.shrimp:hover {
+    transform: scale(1.5);
+    transition-duration 0.2s: ;
 }
 
 li {
@@ -47,4 +58,12 @@ li {
 
 div {
     text-align: center;
+}
+
+footer {
+    font-family: Tahoma, sans-serif;
+    color: #630000;
+    text-align: center;
+    background-color: #D8B6A4;
+    padding: 20px;
 }
